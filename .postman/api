@@ -1,4 +1,4 @@
-id = 45717b13-9383-4f5e-83f6-ef685123c244
+id = 34d64036-0af4-46ff-99b7-1eaed3415bec
 
 [relations]
 
@@ -9,5 +9,7 @@ rootDirectory = postman/collections
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"rutvik.yaml.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
+type = openapi:3
