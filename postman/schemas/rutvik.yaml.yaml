@@ -2,7 +2,7 @@ openapi: '3.0.0'
 info:
   version: '1.0.0'
   title: 'API 2'
-  description: Buy or rent
+  description: Buy or rent test
 
 paths:
   /spacecrafts/{spacecraftId}:
