@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "23071024-b84e-4815-bcb0-0c9029d28a66",
+		"name": "Space Collection",
+		"description": "Buy or rent spacecrafts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "869033-23071024-b84e-4815-bcb0-0c9029d28a66"
+	},
+	"item": [
+		{
+			"name": "Read a spacecraft",
+			"id": "8cf062e2-e6ab-40f4-87e9-872c1fbc9435",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"spacecrafts",
+						":spacecraftId"
+					],
+					"variable": [
+						{
+							"key": "spacecraftId",
+							"value": "ex cupidatat qui dolore",
+							"description": "(Required) The unique identifier of the spacecraft"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "eabdf09d-a933-4266-b833-336b536942e0",
+					"name": "The spacecraft corresponding to the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"spacecrafts",
+								":spacecraftId"
+							],
+							"variable": [
+								{
+									"key": "spacecraftId",
+									"value": "ex cupidatat qui dolore",
+									"description": "(Required) The unique identifier of the spacecraft"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"magna ullamco dolore commodo\",\n  \"type\": \"satellite\",\n  \"description\": \"Ut \"\n}"
+				},
+				{
+					"id": "1aa016e7-8f8f-4cce-a097-2f0907d9998d",
+					"name": "No spacecraft found for the provided `spacecraftId`",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"spacecrafts",
+								":spacecraftId"
+							],
+							"variable": [
+								{
+									"key": "spacecraftId",
+									"value": "ex cupidatat qui dolore",
+									"description": "(Required) The unique identifier of the spacecraft"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"fugiat dolor\"\n}"
+				},
+				{
+					"id": "92bf53a1-5223-4e0b-8449-19542c5ae8c2",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"spacecrafts",
+								":spacecraftId"
+							],
+							"variable": [
+								{
+									"key": "spacecraftId",
+									"value": "ex cupidatat qui dolore",
+									"description": "(Required) The unique identifier of the spacecraft"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"message\": \"fugiat dolor\"\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-Api-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{apiKey}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "fa8a97cb-c3dc-40e6-b426-8393e5af3b19",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
