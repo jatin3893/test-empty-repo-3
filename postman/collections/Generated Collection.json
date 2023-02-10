@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "12c7a4c0-79dc-4584-822f-a4d134b433b5",
+		"_postman_id": "dce1112c-5c4a-43f8-a0ab-1df327136498",
 		"name": "Generated Collection",
 		"description": "Buy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "869033-12c7a4c0-79dc-4584-822f-a4d134b433b5"
+		"_uid": "869033-dce1112c-5c4a-43f8-a0ab-1df327136498"
 	},
 	"item": [
 		{
 			"name": "Read a spacecraft",
-			"id": "929b38f5-23c2-4466-aead-83296719bdbc",
+			"id": "b89f0dc6-ff7c-4334-9fec-175cca5e3a2b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -41,7 +41,7 @@
 			},
 			"response": [
 				{
-					"id": "04d1a31c-09f7-4cf2-8127-ebfcb258e112",
+					"id": "458da873-4432-4713-8609-b0d56500ef2b",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -83,7 +83,7 @@
 					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"reprehenderit culpa ullamco\",\n  \"type\": \"station\",\n  \"description\": \"officia\"\n}"
 				},
 				{
-					"id": "9536f1d3-408d-4485-9388-5e8d791cefa5",
+					"id": "b7020b7f-1558-46a6-ae56-3df7bd9c3fd2",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -125,7 +125,7 @@
 					"body": "{\n  \"message\": \"dolore\"\n}"
 				},
 				{
-					"id": "562953ac-ab3d-4e23-918c-aa26b4702567",
+					"id": "58ed3f57-8bef-42e9-a7c3-95042993c41c",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -170,7 +170,7 @@
 		},
 		{
 			"name": "Create a spacecraft",
-			"id": "d00c10f6-2bb1-4415-a163-463a9ab9e1cf",
+			"id": "aa52e688-ff70-4ec7-b395-b95de7c01923",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -202,7 +202,7 @@
 			},
 			"response": [
 				{
-					"id": "39469503-604a-4ee5-a344-e58de49951ee",
+					"id": "9cd24b5e-7def-4a9a-b093-c07f408a2aaa",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "POST",
@@ -244,7 +244,7 @@
 					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"reprehenderit culpa ullamco\",\n  \"type\": \"station\",\n  \"description\": \"officia\"\n}"
 				},
 				{
-					"id": "50503191-719d-451e-962b-2b59254a65dc",
+					"id": "c24dcfa5-ee7c-4d68-ab56-57f19ea0bb81",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "POST",
@@ -286,7 +286,7 @@
 					"body": "{\n  \"message\": \"dolore\"\n}"
 				},
 				{
-					"id": "0883dffd-c26f-4de2-b382-f44e4c357392",
+					"id": "392b6528-c561-49f0-a80c-3ca7422fb728",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "POST",
