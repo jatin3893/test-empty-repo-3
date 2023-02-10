@@ -6,6 +6,9 @@ id = 56280270-2b1e-4509-81b9-af35ca5758b2
 [relations.collections]
 rootDirectory = postman/collections
 files[] = {"id":"869033-dce1112c-5c4a-43f8-a0ab-1df327136498","path":"Generated Collection.json","metaData":{}}
+files[] = {"id":"869033-8d7abfd3-6fc9-4731-9384-4d9f90b67569","path":"New Collection(1).json","metaData":{}}
+files[] = {"id":"869033-87c4f23c-3944-4c9f-b925-3a6134f6dac6","path":"New Collection(2).json","metaData":{}}
+files[] = {"id":"869033-59d709e4-4dfa-4f83-b01d-98de5d95f713","path":"New Collection.json","metaData":{}}
 files[] = {"id":"869033-eb6401ae-76c6-41fb-8529-c5d70b0f7d3f","path":"Nice Collection.json","metaData":{}}
 files[] = {"id":"869033-3d83bbac-104a-47be-afea-793367ef8480","path":"Space Collection.json","metaData":{}}
 
@@ -13,9 +16,11 @@ files[] = {"id":"869033-3d83bbac-104a-47be-afea-793367ef8480","path":"Space Coll
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"index Copy Copy Copy.json","metaData":{}}
 files[] = {"path":"index Copy Copy.json","metaData":{}}
 files[] = {"path":"index Copy.json","metaData":{}}
 files[] = {"path":"index.json","metaData":{}}
+files[] = {"path":"New.json","metaData":{}}
 files[] = {"path":"rutvik.yaml.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
