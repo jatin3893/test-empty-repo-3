@@ -72,7 +72,6 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -114,7 +113,6 @@
 					"status": "Not Found",
 					"code": 404,
 					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -156,168 +154,6 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"dolore\"\n}"
-				}
-			]
-		},
-		{
-			"name": "Create a spacecraft",
-			"id": "aa52e688-ff70-4ec7-b395-b95de7c01923",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/json"
-					}
-				],
-				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
-					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"spacecrafts",
-						":spacecraftId"
-					],
-					"variable": [
-						{
-							"key": "spacecraftId",
-							"value": "ex sint consectetur exercitation",
-							"description": "(Required) The unique identifier of the spacecraft"
-						}
-					]
-				}
-			},
-			"response": [
-				{
-					"id": "9cd24b5e-7def-4a9a-b093-c07f408a2aaa",
-					"name": "The spacecraft corresponding to the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"variable": [
-								{
-									"key": "spacecraftId",
-									"value": "ex sint consectetur exercitation",
-									"description": "(Required) The unique identifier of the spacecraft"
-								}
-							]
-						}
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"reprehenderit culpa ullamco\",\n  \"type\": \"station\",\n  \"description\": \"officia\"\n}"
-				},
-				{
-					"id": "c24dcfa5-ee7c-4d68-ab56-57f19ea0bb81",
-					"name": "No spacecraft found for the provided `spacecraftId`",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"variable": [
-								{
-									"key": "spacecraftId",
-									"value": "ex sint consectetur exercitation",
-									"description": "(Required) The unique identifier of the spacecraft"
-								}
-							]
-						}
-					},
-					"status": "Not Found",
-					"code": 404,
-					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json"
-						}
-					],
-					"cookie": [],
-					"body": "{\n  \"message\": \"dolore\"\n}"
-				},
-				{
-					"id": "392b6528-c561-49f0-a80c-3ca7422fb728",
-					"name": "Unexpected error",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"spacecrafts",
-								":spacecraftId"
-							],
-							"variable": [
-								{
-									"key": "spacecraftId",
-									"value": "ex sint consectetur exercitation",
-									"description": "(Required) The unique identifier of the spacecraft"
-								}
-							]
-						}
-					},
-					"status": "Internal Server Error",
-					"code": 500,
-					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
