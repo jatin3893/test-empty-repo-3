@@ -36,3 +36,4 @@ files[] = {"path":"rutvik.yaml.yaml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:2
+rootFiles[] = index Copy Copy Copy Copy.json
