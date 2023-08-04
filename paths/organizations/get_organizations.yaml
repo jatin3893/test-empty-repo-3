@@ -1,0 +1,22 @@
+parameters:
+    - $ref: "#/components/parameters/limit"
+    - in: header
+      name: X-username
+      schema:
+          type: string
+responses:
+    200:
+        description: Success responses
+        headers:
+            X-rate-limit:
+                $ref: "#/components/headers/X-rate-limit"
+        content:
+            application/json:
+                schema:
+                    $ref: "#/components/schemas/OrganizationArray"
+    500:
+        description: Unknown error
+        content:
+            application/json:
+                schema:
+                    $ref: "#/components/schemas/ErrorResponse"

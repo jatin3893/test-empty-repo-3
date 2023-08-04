@@ -1,0 +1,19 @@
+openapi: "3.0.0"
+info:
+    version: "1.0.0"
+    title: "Sample API"
+    description: Buy or rent spacecrafts
+
+servers:
+    - url: https://beta.good.domain.com
+    - url: https://stage.good.domain.com
+    - url: https://good.domain.com
+
+paths:
+    $ref: "./paths/_index.yaml"
+
+components:
+    $ref: "./components/_index.yaml"
+
+security:
+    - ApiKeyAuth: []

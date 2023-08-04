@@ -1,0 +1,5 @@
+type: apiKey
+# can be "header", "query" or "cookie"
+in: header
+# name of the header, query parameter or cookie
+name: X-API-KEY

@@ -1,0 +1,3 @@
+schema:
+    type: number
+    example: 10

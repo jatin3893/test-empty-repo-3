@@ -1,0 +1,2 @@
+/organizations:
+    $ref: "./organizations/_index.yaml"

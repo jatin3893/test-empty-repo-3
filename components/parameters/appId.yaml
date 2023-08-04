@@ -1,0 +1,11 @@
+in: header
+name: X-app-id
+schema:
+    type: string
+examples:
+    PostmanApp: 
+        value: "postman-app/v10.2.1"
+        summary: "Expected header value if endpoint is being called from Postman-app"
+    Service:
+        value: "{service-name}"
+        summary: "Expected value if endpoint is being called from another service"

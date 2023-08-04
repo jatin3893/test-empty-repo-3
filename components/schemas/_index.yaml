@@ -1,0 +1,7 @@
+Organization:
+    $ref: "./Organization/Organization.yaml"
+    
+OrganizationArray:
+    $ref: "./Organization/OrganizationArray.yaml"
+ErrorResponse:
+    type: string

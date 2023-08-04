@@ -1,0 +1,6 @@
+in: query
+name: limit
+schema:
+  type: integer
+required: true
+description: No. of objects to be fetched
