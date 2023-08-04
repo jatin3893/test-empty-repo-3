@@ -20,8 +20,8 @@ files[] = {"id":"5000730-95b12a32-1035-4a7f-8aa5-920ab64aff37","path":"User Mana
 [config.relations.collections.metaData]
 
 [config.relations.apiDefinition]
-files[] = {"path":"postman/schemas/index.yaml","metaData":{}}
+files[] = {"path":"postman/index.yaml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = postman/schemas/index.yaml
+rootFiles[] = postman/index.yaml
