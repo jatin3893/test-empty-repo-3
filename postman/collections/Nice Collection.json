@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "f4a4282d-fe6b-4419-847d-4977b6553a0b",
+		"_postman_id": "f695bd53-06f6-4179-8b5b-4d1611a0afea",
 		"name": "Nice Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "869033-f4a4282d-fe6b-4419-847d-4977b6553a0b"
+		"_uid": "5000730-f695bd53-06f6-4179-8b5b-4d1611a0afea"
 	},
 	"item": [
 		{
 			"name": "New Request",
-			"id": "4372ca9a-5a74-4304-96b7-548dd44402c3",
+			"id": "4217ad40-7d4c-4d07-aab8-a5d92ca8be06",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -23,7 +23,7 @@
 		},
 		{
 			"name": "Oldest Request",
-			"id": "988740d9-f880-4076-9b1e-0dca64dc56e8",
+			"id": "b8687602-dd10-4ebb-87c7-99d1028e12fb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -38,7 +38,7 @@
 		},
 		{
 			"name": "Future Request",
-			"id": "66faa349-2103-4156-93a0-0adbd129dbd9",
+			"id": "964a26c3-ed9e-4087-b5ab-f0882703ca4e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -53,7 +53,7 @@
 		},
 		{
 			"name": "Old Request",
-			"id": "a8839029-2b33-46de-91d4-f9c15ceef7e3",
+			"id": "9cd3c923-0963-4a49-bce1-7a0dbfa1c1c2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},

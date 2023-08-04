@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "8f7b42c0-4782-4dad-bad0-dd02c354042f",
+		"_postman_id": "d7331222-4303-4442-bb8d-ef2f23c1ba90",
 		"name": "Generated Collection",
 		"description": "Buy or rent spacecrafts",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "869033-8f7b42c0-4782-4dad-bad0-dd02c354042f"
+		"_uid": "5000730-d7331222-4303-4442-bb8d-ef2f23c1ba90"
 	},
 	"item": [
 		{
@@ -22,11 +22,11 @@
 										{
 											"name": "New Folder",
 											"item": [],
-											"id": "5d7bf19e-2ca0-4daf-b5a4-4c3ba2decafa"
+											"id": "9e2a4672-542d-4558-a84c-136ce5dbe0bc"
 										},
 										{
 											"name": "Read a spacecraft",
-											"id": "62feb0db-6a0d-408c-9198-2e31b747972b",
+											"id": "f2e5d2e5-76e4-4f7c-bb41-3e3781b390bb",
 											"protocolProfileBehavior": {
 												"disableBodyPruning": true
 											},
@@ -58,7 +58,7 @@
 											},
 											"response": [
 												{
-													"id": "5700464f-ee30-4c3a-ac54-976df624411f",
+													"id": "007ee5d4-38ce-4b8e-90d7-1feba284429b",
 													"name": "The spacecraft corresponding to the provided `spacecraftId`",
 													"originalRequest": {
 														"method": "GET",
@@ -89,6 +89,7 @@
 													"status": "OK",
 													"code": 200,
 													"_postman_previewlanguage": "json",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -99,7 +100,7 @@
 													"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"reprehenderit culpa ullamco\",\n  \"type\": \"station\",\n  \"description\": \"officia\"\n}"
 												},
 												{
-													"id": "3bec82da-5f9d-44b0-ac16-8dec495463fd",
+													"id": "355dfc7b-bf57-43f8-88f5-1870b9d3f56d",
 													"name": "No spacecraft found for the provided `spacecraftId`",
 													"originalRequest": {
 														"method": "GET",
@@ -130,6 +131,7 @@
 													"status": "Not Found",
 													"code": 404,
 													"_postman_previewlanguage": "json",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -140,7 +142,7 @@
 													"body": "{\n  \"message\": \"dolore\"\n}"
 												},
 												{
-													"id": "9607a1a3-3a38-4d2b-9e78-41a69efb076f",
+													"id": "69868359-f95b-4c07-a924-136273634251",
 													"name": "Unexpected error",
 													"originalRequest": {
 														"method": "GET",
@@ -171,6 +173,7 @@
 													"status": "Internal Server Error",
 													"code": 500,
 													"_postman_previewlanguage": "json",
+													"_postman_previewtype": "html",
 													"header": [
 														{
 															"key": "Content-Type",
@@ -183,11 +186,11 @@
 											]
 										}
 									],
-									"id": "559156a1-0e63-4ccf-ae16-b5968d906d81"
+									"id": "91613e1c-9524-4966-b7c6-d5b930706eed"
 								},
 								{
 									"name": "Read a spacecraft Copy",
-									"id": "ee7634f4-fa4b-4389-9704-e06f16b5070a",
+									"id": "23a82f0d-1227-4c9e-b4d5-74ccee7ef208",
 									"protocolProfileBehavior": {
 										"disableBodyPruning": true
 									},
@@ -219,7 +222,7 @@
 									},
 									"response": [
 										{
-											"id": "41116d43-9102-4dfd-a815-65090915c67a",
+											"id": "0a441c2d-468d-42da-989f-1061a919c778",
 											"name": "The spacecraft corresponding to the provided `spacecraftId`",
 											"originalRequest": {
 												"method": "GET",
@@ -250,6 +253,7 @@
 											"status": "OK",
 											"code": 200,
 											"_postman_previewlanguage": "json",
+											"_postman_previewtype": "html",
 											"header": [
 												{
 													"key": "Content-Type",
@@ -260,7 +264,7 @@
 											"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"reprehenderit culpa ullamco\",\n  \"type\": \"station\",\n  \"description\": \"officia\"\n}"
 										},
 										{
-											"id": "8bbec9cd-1adb-4524-97fb-41e41fd8b25a",
+											"id": "2bd5b8cc-62fa-4a3a-8e74-b3d5937975e0",
 											"name": "No spacecraft found for the provided `spacecraftId`",
 											"originalRequest": {
 												"method": "GET",
@@ -291,6 +295,7 @@
 											"status": "Not Found",
 											"code": 404,
 											"_postman_previewlanguage": "json",
+											"_postman_previewtype": "html",
 											"header": [
 												{
 													"key": "Content-Type",
@@ -301,7 +306,7 @@
 											"body": "{\n  \"message\": \"dolore\"\n}"
 										},
 										{
-											"id": "656b5d8b-47cd-497b-9dc2-0c52f995f3e4",
+											"id": "d37e4d0d-51ea-4b53-a239-24b352a72240",
 											"name": "Unexpected error",
 											"originalRequest": {
 												"method": "GET",
@@ -332,6 +337,7 @@
 											"status": "Internal Server Error",
 											"code": 500,
 											"_postman_previewlanguage": "json",
+											"_postman_previewtype": "html",
 											"header": [
 												{
 													"key": "Content-Type",
@@ -344,17 +350,17 @@
 									]
 								}
 							],
-							"id": "c7693716-2e78-405e-b626-8a9c6ba027b5"
+							"id": "557abcc1-390f-4c8f-b7fe-ea488fab350c"
 						}
 					],
-					"id": "21c8ea63-c1f1-48a0-b3dc-133f1bedc8cf"
+					"id": "fc912c84-1d55-4287-81d6-e053ded97f07"
 				}
 			],
-			"id": "7b531a37-2f76-4935-801b-4c2b212cde25"
+			"id": "17078b3b-4e07-481e-8974-7224b3ed82dd"
 		},
 		{
 			"name": "Read a spacecraft Copy 2",
-			"id": "36ff2c3e-976c-455c-8677-c5b0ca2bb15d",
+			"id": "fe05c684-c446-46c3-9b38-2101134eb6f0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -386,7 +392,7 @@
 			},
 			"response": [
 				{
-					"id": "04da4221-db78-4d64-9ae8-1e10256d668f",
+					"id": "b4812cab-9bdb-4d80-a9e0-d2a71208736a",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -417,6 +423,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -427,7 +434,7 @@
 					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"reprehenderit culpa ullamco\",\n  \"type\": \"station\",\n  \"description\": \"officia\"\n}"
 				},
 				{
-					"id": "1518a540-4373-4c6e-85fb-fd3eabc0a5db",
+					"id": "2b5f043a-b817-43f1-adc1-c9956d69b644",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
@@ -458,6 +465,7 @@
 					"status": "Not Found",
 					"code": 404,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -468,7 +476,7 @@
 					"body": "{\n  \"message\": \"dolore\"\n}"
 				},
 				{
-					"id": "471f5e05-1bf7-41d7-9359-46ecc13418db",
+					"id": "b3cdf7a8-c935-443b-969d-61d8fd8be430",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -499,6 +507,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
